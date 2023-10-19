@@ -1,0 +1,97 @@
+body {
+  background-color: #fae049;
+  margin: 40px 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.heart-img {
+  width: 30px;
+  height: 30px;
+}
+/*<a href="https://www.flaticon.com/free-icons/heart" title="heart icons">Heart icons created by Freepik - Flaticon</a>*/
+
+.share-img {
+  width: 30px;
+  height: 30px;
+}
+/*<a href="https://www.flaticon.com/free-icons/shortcut" title="shortcut icons">Shortcut icons created by Shahid-Mehmood - Flaticon</a>*/
+
+/*<a href="https://www.flaticon.com/free-icons/cat" title="cat icons">Cat icons created by Freepik - Flaticon</a>*/
+/*<a href="https://www.flaticon.com/free-icons/hero" title="hero icons">Hero icons created by Freepik - Flaticon</a>*/
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  margin-top: 100px;
+  min-width: 1200px;
+  width: 100%;
+}
+
+.card {
+  z-index: 1;
+  position: relative;
+  background-color: #FFFFF0;
+  width: 50%;
+  margin: 0px auto 100px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  position: relative;
+  margin: -50px 0 10px;
+  z-index: 2;
+}
+
+.card-rating {
+  font-size: 20px;
+}
+
+.card-body-stars {
+  list-style-type: none; 
+  display: flex;
+  color: #eeff04;
+}
+
+.card-button {
+  display: inline-flex;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  color: white;
+  padding: 10px 20px;background-color: #9a8030;
+}
+
+.card-button-more {
+  color: #9a8030;
+  text-decoration: none;
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.container-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-title {
+  margin: 0; 
+}
+
+.card-icons img {
+  margin: 0 10px;
+}
+
+.card-body-stars  {
+  padding: 0;
+}
